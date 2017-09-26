@@ -3,11 +3,12 @@ html {
 }
 
 .masthead {
-  color: rgba(16, 52, 41, 0);
+  color: #fff;
   border-top: 3px solid #467366;
   border-bottom: 3px solid #467366;
   background-color: #588477;
   background-image: url("../images/leaf-bg.svg");
+  background-size: 64px;
 }
 
 .logo {
@@ -23,11 +24,11 @@ html {
   border: 3px solid #2d5a4d;
   border-radius: 8px;
   color: #fff;
-  background-color: #588477;
+  background-color: #467366;
 }
 
 .nav a:hover {
-  color: #2d5a4d;
+  color: #145b1d;
   background-image: url("../images/leaf-icon.svg");
   background-size: 64px;
   background-repeat: no-repeat;
@@ -36,7 +37,7 @@ html {
 
 .banner {
   color: #fff;
-  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 3px solid rgba(16, 52, 41, .8);
@@ -45,9 +46,9 @@ html {
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-size: 64px;
+  background-size: 95px;
   background-position: .75em;
-  padding-top: 20em;
+  padding-top: 19em;
 }
 
 @media only screen and (min-width: 60em) {
