@@ -16,14 +16,24 @@ html {
 
 .nav a {
   text-decoration: none;
+  border: 3px solid #467366;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #588477;
 }
 
 .nav a:hover {
-
+  color: #2d5a4d;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .banner {
-
+  color: #fff;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
 }
 
 .banner-content {
