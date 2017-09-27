@@ -4,8 +4,8 @@ html {
 
 .masthead {
   color: #fff;
-  border-top: 3px solid #467366;
-  border-bottom: 3px solid #467366;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
   background-color: #588477;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px;
@@ -47,7 +47,7 @@ html {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 95px;
-  background-position: .75em;
+  background-position: .75em calc(100% - 255px);
   padding-top: 19em;
 }
 
