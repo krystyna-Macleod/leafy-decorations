@@ -71,9 +71,13 @@ html {
     text-align: right;
   }
 
+  .banner {
+    background-position: bottom;
+  }
+
   .banner-content {
     background-position: .75em 9.45em;
-    padding-top: 15.562em;
+    padding-top: 15.575em;
   }
 
 }
@@ -81,8 +85,8 @@ html {
 @media only screen and (min-width: 90em) {
 
   .banner-content {
-    background-position: .75em 9.75em;
-    padding-top: 15.558em;
+    background-position: .75em 8.75em;
+    padding-top: 14.558em;
   }
 
 }
