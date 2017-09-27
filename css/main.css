@@ -39,7 +39,7 @@ html {
   color: #fff;
   background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center;
   background-size: cover;
   border-bottom: 3px solid rgba(16, 52, 41, .8);
 }
